@@ -441,40 +441,6 @@
         <!-- Search Form -->
         @include('layouts.frontend.search')
         <!--// Search Form -->
-
-        <!-- Modal -->
-        {{-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Détail du Produit</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <img id="modalProductImage" src="" alt="Image du produit" height="350" width="450" />
-                            </div>
-                            <div class="col-md-5">
-                                <h5 id="modalProductName"></h5>
-                                <p id="modalProductDescription"></p>
-                                <p>
-                                    <strong>Prix:</strong> <span id="modalProductPrice"></span> F CFA
-                                </p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                        <a href="#" id="modalAddToCart" class="btn btn-primary">Ajouter au panier</a>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <!-- end Modal -->
   
 
 @endsection
