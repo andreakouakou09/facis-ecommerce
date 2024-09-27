@@ -51,6 +51,9 @@ class PanierController extends Controller
 
         // }
 
+        if (!auth()->Auth::check()) {
+            return response()->json(['success' => false, 'message' => 'Veuillez vous connecter pour ajouter des articles au panier.'], 401);
+        }
 
         $article = Article::find($id);
         $user = Auth::user();

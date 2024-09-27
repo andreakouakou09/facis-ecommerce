@@ -85,9 +85,22 @@
                     }
                 },
 
+                // error: function(xhr, status, error) {
+                //     alert('Erreur de communication avec le serveur');
+                // }
+
                 error: function(xhr, status, error) {
-                    alert('Erreur de communication avec le serveur');
+                if (xhr.status === 401) {
+                    // alert('Vous devez être connecté pour ajouter des articles au panier.');
+                    // // Optionnel : rediriger vers la page de connexion
+                    // window.location.href = "{{ route('login') }}";
+
+                    $('#authModal').modal('show');
+
+                } else {
+                    alert('Erreur de communication avec le serveur.');
                 }
+            }
             });
         });
     </script>
@@ -190,6 +203,62 @@
 
     </script>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Détail du Produit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img id="modalProductImage" src="" alt="Image du produit" height="350" width="450" />
+                        </div>
+                        <div class="col-md-5">
+                            <h5 id="modalProductName"></h5>
+                            <p id="modalProductDescription"></p>
+                            <p>
+                                <strong>Prix:</strong> <span id="modalProductPrice"></span> F CFA
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <a href="#" id="modalAddToCart" class="btn btn-primary btn-lg" role="button">Ajouter au panier</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modale Bootstrap -->
+    <div class="modal fade" id="authModal" tabindex="-1" role="dialog" aria-labelledby="authModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="authModalLabel">Non connecté</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            Vous devez être connecté pour ajouter des articles au panier.
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+            <a href="{{ route('login') }}" class="btn btn-primary btn-lg" role="button">Se connecter</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+  
     {{-- <script>
         $(document).ready(function() {
     
