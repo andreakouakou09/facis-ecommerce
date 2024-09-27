@@ -156,20 +156,3 @@
 <!--// Search Form -->
 
 @endsection
-
-{{-- <form action="{{ route('contact_store') }}"   method="post">
-    @csrf
-    
-    <input type="text" placeholder="Nom" name="nom">
-
-    <input type="email" placeholder="Email" name="email">
-
-    <input type="text" placeholder="Telephone" name="telephone">
-
-    <input type="text" placeholder="Sujet" name="sujet">
-
-    <textarea cols="30" rows="5" placeholder="Message" name="message"></textarea>
-
-    <button type="submit">Envoyez Maintenant</button>
-
-</form> --}}

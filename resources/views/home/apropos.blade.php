@@ -38,19 +38,6 @@
                                 <h6>Révolutionnez Votre Confort avec Nos Solutions Frigorifiques Expertement Conçues !</h6>
                                 <p>Chez Facis, nous sommes experts en solutions de réfrigération et climatisation. Forts de plusieurs années d’expérience, nous offrons une gamme complète de services allant de l’installation à l'entretien, en passant par la réparation de systèmes frigorifiques pour les particuliers, les entreprises et les industries.</p>
                                 <p>Notre équipe de techniciens qualifiés intervient rapidement et efficacement pour assurer le bon fonctionnement de vos équipements de froid, qu'il s'agisse de chambres froides, de réfrigérateurs industriels ou de climatiseurs.</p>
-                                {{-- <ul class="stylish-list-color">
-                                    <li><i class="ion-android-checkmark-circle"></i> Atque expedita nobis voluptatem
-                                        quis.</li>
-                                    <li><i class="ion-android-checkmark-circle"></i> Voluptas nihil quia ut.</li>
-                                </ul> 
-                                <div class="tm-about-buttons tm-buttongroup">
-                                    <a href="tel:+18009156270" class="tm-callbutton">
-                                        <img src="{{ url('frontend/assets/images/icons/icon-callbutton-phone.png') }}" alt="call icon">
-                                        <h5>24/7 Customer Care</h5>
-                                        <h4>1-800-915-6270</h4>
-                                    </a>
-                                </div> --}}
-
                             </div>
                         </div>
                     </div>

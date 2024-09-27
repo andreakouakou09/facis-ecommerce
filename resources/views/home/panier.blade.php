@@ -107,13 +107,9 @@
                         <div class="col-lg-8 col-md-6">
                             <div class="tm-buttongroup">
                                 <a href="{{ url('/produits') }}" class="tm-button">Continue Shopping <b></b></a>
-                                {{-- <a href="#" class="tm-button">Update Cart <b></b></a> --}}
+                                
                             </div>
-                            {{-- <form action="#" class="tm-cart-coupon">
-                                <label for="coupon-field">Nom</label>
-                                <input type="text" id="" placeholder="Entrer votre nom" required>
-                                <button type="submit" class="tm-button">Submit <b></b></button>
-                            </form> --}}
+                            
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="tm-cart-pricebox">
@@ -121,14 +117,7 @@
                                 <div class="table-responsive">
                                     <table class="table table-borderless">
                                         <tbody>
-                                            {{-- <tr class="tm-cart-pricebox-subtotal">
-                                                <td>Cart Subtotal</td>
-                                                <td>$175.00</td>
-                                            </tr>
-                                            <tr class="tm-cart-pricebox-shipping">
-                                                <td>(+) Shipping Charge</td>
-                                                <td>$15.00</td>
-                                            </tr> --}}
+                                            
                                             <tr class="tm-cart-pricebox-total">
                                                 <td>Total</td>
                                                 <td><span id="total-panier">{{ $total }}</span> F CFA</td>

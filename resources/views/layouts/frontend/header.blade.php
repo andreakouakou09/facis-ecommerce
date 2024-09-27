@@ -46,9 +46,6 @@
                         <li>
                             <a href="{{ url('/services') }}">Services</a>
                         </li>
-                        {{-- <li>
-                            <a href="{{ url('/actualites') }}">Actualités</a>
-                        </li> --}}
                         <li>
                             <a href="{{ url('/contact') }}">Contact</a>
                         </li>
@@ -65,9 +62,8 @@
                         @endif
                     </li>
 
-                    {{-- <li><a href="{{ route('login') }}"><i class="ion-android-contact"></i></a></li> --}}
                     <li><a href="{{ url('/monpanier') }}"><i class="ion-android-cart"></i> [ {{ $count }} ]</a></li>
-                    {{-- <li><a href="{{ route('panier') }}"><i class="ion-android-cart"></i></a></li> --}}
+
                 </ul>
                 <div class="tm-mobilenav"></div>
             </div>

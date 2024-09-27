@@ -121,41 +121,7 @@
                             <h2>Prendre rendez-vous</h2>
                             <p>L'un de nos experts vous contactera rapidement pour répondre à vos questions.</p>
                             
-                            {{-- <form action="{{ route('appointement_store') }}" class="tm-appointment-form tm-form tm-form-whitebox" method="post">
-                                @csrf
-                                <div class="tm-form-inner">
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" placeholder="Nom" name="nom">
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" placeholder="Telephone" name="telephone">
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" placeholder="Adresse" name="adresse">
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" placeholder="Date" data-toggle="datepicker" name="date">
-                                    </div>
-                                    <div class="tm-form-field">
-                                        <select name="service">
-                                            <option selected disabled>Choisisssez un Service</option>
-                                            <option value="Vente d'équipement">Vente d'équipement</option>
-                                            <option value="Maintenance">Maintenance</option>
-                                            <option value="Depannage">Depannage</option>
-                                            <option value="Réparation">Réparation</option>
-                                            <option value="Maintenance">Maintenance</option>
-                                        </select>
-                                    </div>
-                                    <div class="tm-form-field">
-                                        <textarea cols="30" rows="5" placeholder="Message"
-                                            name="message"></textarea>
-                                    </div>
-                                    <div class="tm-form-field">
-                                        <button type="submit" class="tm-button">Envoyer</button>
-                                    </div>
-                                </div>
-                            </form> --}}
-<br>
+                           
                             <form action="{{ route('appointement_store') }}" method="post" class="tm-appointment-form tm-form tm-form-whitebox">
                                 @csrf
                                 <div class="tm-form-inner">

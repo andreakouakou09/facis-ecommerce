@@ -29,11 +29,11 @@
                     <div class="row">
                         <div class="col-lg-9 col-12">
 
-                            {{-- @if(session('success'))
+                            @if(session('success'))
                                 <div class="alert alert-success">
                                     {{ session('success') }}
                                 </div>
-                            @endif --}}
+                            @endif
 
                             <div class="alert-container">
                                 {{ $articles->links() }}
@@ -60,13 +60,11 @@
                                                     <img src="{{ url('uploads/articles/', $article->image) }}" alt="oyoxo product" height="300">
                                                     <ul class="tm-product-actions">
                                                         <li>
-                                                            {{-- <button data-fancybox data-src="#tm-product-quickview"><i class="ion-eye"></i></button> --}}
+                                                           
                                                             <button class="btn-view-product"  data-toggle="modal" data-target="#exampleModal"  data-name="{{ $article->nom }}" data-description="{{ $article->description }}" data-price="{{ $article->prix }}" data-image="{{ url('uploads/articles/', $article->image) }}" data-id="{{ $article->id }}"><i class="ion-eye"></i></button>
                                                         </li>
                                                         <li><a href="#" class="add-to-cart-btn" data-id="{{ $article->id }}"><i class="ion-android-cart"></i></a></li>
-                                                        {{-- <li><a href="{{ route('add_to_cart', $article->id) }}"><i class="ion-android-cart"></i></a></li> --}}
                                                         
-                                                        {{-- {{ route('add_to_cart', $article->id) }} --}}
                                                     </ul>
                                                 </div>
                                                 <div class="tm-product-bottom">
