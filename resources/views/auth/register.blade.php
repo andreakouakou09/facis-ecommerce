@@ -1,5 +1,7 @@
 @extends('layouts.frontend.app')
 
+@section('title', 'S\'enregistrer')
+
 @section('content')
 
     <!-- Header -->

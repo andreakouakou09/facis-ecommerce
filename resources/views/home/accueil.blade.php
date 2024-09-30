@@ -1,5 +1,7 @@
 @extends('layouts.frontend.app')
 
+@section('title', 'Accueil')
+
 @section('content')
 
         <!-- Header -->
@@ -20,7 +22,7 @@
                         <div class="col-lg-8 col-md-10">
                             <h1>Spécialiste du confort en matière de chauffage et de climatisation</h1>
                             <p>Votre confort est notre priorité : Installation, maintenance et réparation de systèmes de climatisation et de chauffage</p>
-                            <a href="" class="tm-button hash-scroll-link">En Savoir Plus</a>
+                            <a href="{{ url('/a-propos') }}" class="tm-button hash-scroll-link">En Savoir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +154,7 @@
                                     <li><i class="ion-android-checkmark-circle"></i> Innovation et Service Client</li>
                                 </ul>
                                 <div class="tm-about-buttons tm-buttongroup">
-                                    <a href="{{ url('/propos') }}" class="tm-button">Voir Plus</a>
+                                    <a href="{{ url('/a-propos') }}" class="tm-button">Voir Plus</a>
                                     <a href="tel:+18009156270" class="tm-callbutton">
                                         <img src="{{ url('frontend/assets/images/icons/icon-callbutton-phone.png') }}" alt="call icon">
                                         <h5>24/7 Service client</h5>
@@ -263,7 +265,7 @@
                                 <h2>Votre maison a-t-elle besoin d'un climatiseur ou d'installation ?</h2>
                                 <h4><i class="ion-phone"></i> Téléphone: <a href="tel:+18009156270">1-800-915-6270</a></h4>
                                 <h4>OU</h4>
-                                <a href="{{ url('/contact') }}" class="tm-button tm-button-white hash-scroll-link">Contactez-nous</a>
+                                <a href="{{ url('/contact') }}" class="tm-button tm-button-white ">Contactez-nous</a>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Facis- Entreprise specialisé dans le froid</title>
+    <title>@yield('title') - FACIS</title>
+    {{-- <title>Facis- Entreprise specialisé dans le froid</title> --}}
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="{{ url('frontend/assets/images/favicon.png') }}">
@@ -44,7 +45,7 @@
 
         @yield('content')
 
-        <button id="back-top-top"><i class="ion-ios-arrow-thin-up"></i></button>
+        
 
     </div>
     <!--// Wrapper -->
@@ -234,7 +235,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Modale Bootstrap -->
     <div class="modal fade" id="authModal" tabindex="-1" role="dialog" aria-labelledby="authModalLabel" aria-hidden="true">

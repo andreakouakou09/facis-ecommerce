@@ -71,6 +71,7 @@ class PanierController extends Controller
                 'success' => true,
                 'message' => 'Quantité augmentée dans le panier'
             ]);
+            
         } else {
             $data = new Panier();
             $data->user_id = $user_id;

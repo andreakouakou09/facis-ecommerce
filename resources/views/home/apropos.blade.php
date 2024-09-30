@@ -1,5 +1,7 @@
 @extends('layouts.frontend.app')
 
+@section('title', 'A Propos')
+
 @section('content')
 
         <!-- Header -->

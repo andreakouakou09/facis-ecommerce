@@ -41,7 +41,6 @@
                             <li><a href="{{ url('/a-propos') }}">A Propos</a></li>
                             <li><a href="{{ url('/produits') }}">Produits</a></li>
                             <li><a href="{{ url('/services') }}">Services</a></li>
-                            <li><a href="{{ url('/actualites') }}">Actualités</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                         </ul>
                     </div>

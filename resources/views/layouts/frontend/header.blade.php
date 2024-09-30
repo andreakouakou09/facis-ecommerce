@@ -6,7 +6,7 @@
                     <ul class="tm-header-topside-infoleft">
                         <li>
                             <b><i class="ion-android-mail"></i> Email: </b>
-                            <a href="mailto:contact@example.com">contact@facis-ci.com</a>
+                            <a href="mailto:contact@example.com">infos@facis-ci.com</a>
                         </li>
                         <li>
                             <b><i class="ion-android-call"></i> Contact: </b>
@@ -15,13 +15,6 @@
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <ul class="tm-header-topside-inforight">
-                        <li>
-                            <button class="tm-header-searchtrigger">
-                                <i class="ion-ios-search-strong"></i>
-                            </button>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

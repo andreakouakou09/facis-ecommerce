@@ -1,5 +1,7 @@
 @extends('layouts.frontend.app')
 
+@section('title', 'Contact')
+
 @section('content')
 
 <!-- Header -->
@@ -89,7 +91,7 @@
                             </span>
                             <div class="tm-contact-block-content">
                                 <h5>Email</h5>
-                                <p>Email: <a href="mailto:info@example.com">info@facis-ci.com</a></p>
+                                <p>Email: <a href="mailto:info@example.com">infos@facis-ci.com</a></p>
                                 <p>Skype: <a href="#">example.name</a></p>
                             </div>
                         </div>

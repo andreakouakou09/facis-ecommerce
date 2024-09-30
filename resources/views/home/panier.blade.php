@@ -1,5 +1,7 @@
 @extends('layouts.frontend.app')
 
+@section('title', 'Mon Panier')
+
 @section('content')
 
     <!-- Header -->
